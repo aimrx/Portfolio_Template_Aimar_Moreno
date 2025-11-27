@@ -1,9 +1,9 @@
 # Project Brief
 
-**Student:** [Your Name]  
-**Handle:** @[your-github-username]  
-**Course:** Web Design 2025 · Fall  
-**Date:** [Fill in date - Week 2]
+**Student:** Aimar Moreno  
+**Handle:** @aimrx
+**Course:** Web Design 2025
+**Date:** 27/11/2025
 
 ---
 
