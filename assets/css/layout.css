@@ -14,7 +14,7 @@
   font-size: var(--text-3xl);
   font-weight: 700;
   margin-bottom: var(--space-xl);
-  text-align: center;
+  text-align: left;
 }
 
 /* --------------------------------------------------------------------------
@@ -197,27 +197,27 @@
 }
 
 /* --------------------------------------------------------------------------
-   7. About Section
+   7. Awards Section
    -------------------------------------------------------------------------- */
-.about {
+.awards {
   background: var(--color-bg-alt);
 }
 
-.about-grid {
+.awards-grid {
   display: grid;
   gap: var(--space-xl);
 }
 
 @media (min-width: 768px) {
-  .about-grid {
+  .awards-grid {
     grid-template-columns: 1fr 1fr;
     align-items: start;
   }
 }
 
-.about-text p {
+.awards-text p {
   margin-bottom: var(--space-md);
-  color: var(--color-text-muted);
+  color: var(--color-text);
 }
 
 .skills-grid {
