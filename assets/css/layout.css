@@ -259,6 +259,55 @@
   transition: width 1s var(--ease-out) 0.3s;
 }
 
+.awards-row {
+  align-items: center;
+  border-bottom: 1rem solid #f5f5f5;
+  display: flex;
+  padding: 22rem 5rem 8rem;
+  position: relative;
+}
+
+.awards-count {
+      margin-right: 80rem;
+
+      @media (max-width: 1100px) {
+        margin-right: 30px;
+      }
+    }
+
+    .awards-title-list {
+      margin-right: 185rem;
+      width: 285rem;
+    }
+
+      @media (max-width: 1100px) {
+        margin-right: 0;
+        width: 500px;
+      }
+
+      @media (max-width: 768px) {
+        width: -webkit-fill-available;
+      }
+    }
+
+    .awards-desc {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+      @media (max-width: 768px) {
+        justify-content: flex-end;
+        text-align: end;
+      }
+
+            .awards__link {
+        text-transform: lowercase;
+        font-style: italic;
+        text-decoration: underline;
+        transition: 0.3s;
+
 /* Animate skill bars when revealed */
 [data-reveal-stagger].revealed .skill-fill {
   width: var(--fill);
