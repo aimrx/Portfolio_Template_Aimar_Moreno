@@ -7,7 +7,7 @@
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgb(252, 248, 240);
+  background: #f5f5f5;
   padding: var(--space-md) 0;
 }
 
