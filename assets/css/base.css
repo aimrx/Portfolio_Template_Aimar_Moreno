@@ -58,6 +58,8 @@ h1 {
   font-family: var(--font-family-titles);
   font-size: var(--text-base); /* Uses our fluid typography variable */
   font-style: italic;
+  font-optical-sizing: auto;
+  font-weight: 300;
 }
 
 /*
