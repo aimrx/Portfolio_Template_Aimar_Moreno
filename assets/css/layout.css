@@ -131,12 +131,6 @@
   letter-spacing: -0.02em;
 }
 
-.hero-subtitle {
-  font-size: var(--text-xl);
-  color: var(--color-text-muted);
-  margin-bottom: var(--space-lg);
-}
-
 /* Scroll Indicator */
 .scroll-indicator {
   position: absolute;
