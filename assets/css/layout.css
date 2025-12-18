@@ -40,7 +40,6 @@
 .hero-title {
   color: #2d2d2d;
   font-size: var(--text-7xl);
-  margin-bottom: var(--space-sm);
   letter-spacing: -0.02em;
   padding-left: 5rem;
   padding-top: 30rem;
