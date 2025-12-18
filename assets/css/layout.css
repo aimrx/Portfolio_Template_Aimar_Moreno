@@ -25,8 +25,8 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: left;
+  text-align: left;
   overflow: hidden;
 }
 
@@ -39,6 +39,11 @@
 
 .hero-title {
   color: #2d2d2d;
+  font-size: var(--text-7xl);
+  margin-bottom: var(--space-sm);
+  letter-spacing: -0.02em;
+  padding-left: 5rem;
+  padding-top: 30rem;
 }
 
 /* --------------------------------------------------------------------------
@@ -118,40 +123,6 @@
   .parallax-bg {
     background-attachment: fixed; /* Classic parallax technique */
   }
-}
-
-.hero-content {
-  position: relative;
-  z-index: 1;
-}
-
-.hero-title {
-  font-size: var(--text-4xl);
-  margin-bottom: var(--space-sm);
-  letter-spacing: -0.02em;
-}
-
-/* Scroll Indicator */
-.scroll-indicator {
-  position: absolute;
-  bottom: var(--space-xl);
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--space-sm);
-  color: var(--color-text-muted);
-  font-size: var(--text-sm);
-}
-
-.scroll-arrow {
-  width: 24px;
-  height: 24px;
-  border-right: 2px solid currentColor;
-  border-bottom: 2px solid currentColor;
-  transform: rotate(45deg);
-  animation: bounce 2s infinite;
 }
 
 @keyframes bounce {
