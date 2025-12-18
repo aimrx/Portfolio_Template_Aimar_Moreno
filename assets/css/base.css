@@ -54,6 +54,12 @@ body {
   background-color: var(--color-bg);
 }
 
+h1 {
+  font-family: var(--font-family-titles);
+  font-size: var(--text-base); /* Uses our fluid typography variable */
+  font-style: italic;
+}
+
 /*
  * RESPONSIVE IMAGES
  *
