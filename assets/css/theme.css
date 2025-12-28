@@ -31,11 +31,6 @@
   ); /* 80px → 120px (hero headline) */
 
   /*
-  TEXT IN CAPITAL LETTERS
-	 */
-  --capital-letters: uppercase;
-
-  /*
 	 * FLUID SPACING SCALE
 	 *
 	 * Consistent spacing creates visual rhythm. These values scale
