@@ -59,9 +59,7 @@
   --color-bg-alt: #1a1a1a; /* Slightly lighter for depth/sections */
   --color-text: #f5f5f5; /* Off-white for readability (not pure white) */
   --color-text-muted: #1a1a1a; /* Subdued text for secondary content */
-  --color-accent: #f16368; /* Indigo — primary brand color */
-  --color-accent-hover: #f16368; /* Lighter indigo for hover states */
-  --main-color: red;
+  --main-color: rgb(187, 11, 11);
 
   /*
 	 * ANIMATION TOKENS

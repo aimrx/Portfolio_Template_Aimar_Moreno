@@ -150,7 +150,7 @@
 .btn {
   display: inline-block;
   padding: var(--space-sm) var(--space-lg);
-  background: var(--color-accent);
+  background: var(--main-color);
   color: white;
   font-weight: 600;
   border-radius: 8px;
@@ -159,7 +159,7 @@
 
 .btn:hover,
 .btn:focus {
-  background: var(--color-accent-hover);
+  background: var(--main-color);
   transform: translateY(-2px);
 }
 /* --------------------------------------------------------------------------
@@ -247,7 +247,7 @@
 .skill-fill {
   height: 100%;
   width: 0;
-  background: var(--color-accent);
+  background: var(--main-color);
   border-radius: 3px;
   transition: width 1s var(--ease-out) 0.3s;
 }
@@ -373,7 +373,7 @@ td {
   padding: 4px 8px;
   background: var(--color-bg);
   border-radius: 4px;
-  color: var(--color-accent);
+  color: var(--main-color);
 }
 
 /* --------------------------------------------------------------------------
@@ -403,7 +403,7 @@ td {
 }
 
 .social-links a:hover {
-  color: var(--color-accent);
+  color: var(--main-color);
 }
 
 /* --------------------------------------------------------------------------
@@ -434,7 +434,7 @@ td {
 }
 
 .back-to-top:hover {
-  background: var(--color-accent);
+  background: var(--main-color);
   transform: translateY(-3px);
 }
 

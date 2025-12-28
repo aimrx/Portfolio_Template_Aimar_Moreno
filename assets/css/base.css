@@ -101,7 +101,7 @@ a {
   top: -100%; /* Hidden above viewport */
   left: 50%;
   transform: translateX(-50%); /* Center horizontally */
-  background: var(--color-accent);
+  background: var(--main-color);
   color: white;
   padding: var(--space-sm) var(--space-md);
   border-radius: 0 0 8px 8px; /* Rounded bottom corners only */

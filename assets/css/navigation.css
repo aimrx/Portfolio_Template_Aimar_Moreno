@@ -37,7 +37,7 @@
 
 .nav-links a:hover,
 .nav-links a:focus {
-  color: var(--color-accent);
+  color: var(--main-color);
 }
 
 .nav-logo {

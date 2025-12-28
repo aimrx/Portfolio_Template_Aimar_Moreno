@@ -316,7 +316,7 @@ function initActiveNav() {
         navLinks.forEach((link) => {
           link.style.color =
             link.getAttribute("href") === `#${id}`
-              ? "var(--color-accent)" // Highlighted color
+              ? "var(--main-color)" // Highlighted color
               : ""; // Reset to default (inherits from CSS)
         });
       }
