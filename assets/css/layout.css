@@ -15,9 +15,9 @@
   font-size: var(--text-base); /* Uses our fluid typography variable */
   font-style: italic;
   font-optical-sizing: auto;
-  font-weight: 500;
-  margin-bottom: var(--space-xl);
-  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: var(--space-lg);
+  font-size: 5.5rem;
   color: var(--main-color);
 }
 
