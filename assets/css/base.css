@@ -59,7 +59,7 @@ h1 {
   font-size: var(--text-base); /* Uses our fluid typography variable */
   font-style: italic;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 350;
 }
 
 /*

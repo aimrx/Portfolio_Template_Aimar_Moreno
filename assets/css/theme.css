@@ -55,10 +55,10 @@
 	 * Dark theme with indigo accent. Limited palette = cohesive design.
 	 * Semantic naming (bg, text, accent) makes colors self-documenting.
 	 */
-  --color-text: #e3e3e3; /* Off-white for readability (not pure white) */
+  --color-text: #f6eed4; /* Off-white for readability (not pure white) */
   --black: #1a1a1a;
   --main-color: rgb(187, 11, 11);
-  --skill-bar: #e3e3e39f;
+  --skill-bar: #f6eed47d;
 
   /*
 	 * ANIMATION TOKENS
