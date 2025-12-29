@@ -27,7 +27,7 @@
   --text-7xl: clamp(
     5rem,
     3.5rem + 6vw,
-    7.5rem
+    8rem
   ); /* 80px → 120px (hero headline) */
 
   /*
