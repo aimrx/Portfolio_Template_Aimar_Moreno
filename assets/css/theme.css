@@ -55,10 +55,8 @@
 	 * Dark theme with indigo accent. Limited palette = cohesive design.
 	 * Semantic naming (bg, text, accent) makes colors self-documenting.
 	 */
-  --color-bg: #1a1a1a; /* Near-black background */
-  --color-bg-alt: #1a1a1a; /* Slightly lighter for depth/sections */
   --color-text: #e3e3e3; /* Off-white for readability (not pure white) */
-  --color-text-muted: #1a1a1a; /* Subdued text for secondary content */
+  --black: #1a1a1a;
   --main-color: rgb(187, 11, 11);
 
   /*

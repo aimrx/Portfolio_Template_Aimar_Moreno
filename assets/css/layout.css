@@ -197,7 +197,7 @@
    8. Awards Section
    -------------------------------------------------------------------------- */
 .awards {
-  background: var(--color-bg-alt);
+  background: var(--black);
 }
 
 .awards-grid {
@@ -222,7 +222,7 @@ es para lo que hay en el index.html --> unos cuadrados con unas lineas con java
 }
 
 .skill-card {
-  background: var(--color-bg);
+  background: var(--black);
   padding: var(--space-md);
   border-radius: 12px;
   text-align: center;
@@ -241,7 +241,7 @@ es para lo que hay en el index.html --> unos cuadrados con unas lineas con java
 
 .skill-bar {
   height: 6px;
-  background: var(--color-bg-alt);
+  background: var(--black);
   border-radius: 3px;
   overflow: hidden;
 }
@@ -302,7 +302,7 @@ table {
 }
 
 .project-card {
-  background: var(--color-bg-alt);
+  background: var(--black);
   border-radius: 16px;
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -340,7 +340,7 @@ table {
 
 .project-content p {
   font-size: var(--text-sm);
-  color: var(--color-text-muted);
+  color: var(--black);
   margin-bottom: var(--space-md);
 }
 
@@ -353,7 +353,7 @@ table {
 .project-tags span {
   font-size: var(--text-xs);
   padding: 4px 8px;
-  background: var(--color-bg);
+  background: var(--black);
   border-radius: 4px;
   color: var(--main-color);
 }
@@ -362,13 +362,13 @@ table {
    10. Contact Section
    -------------------------------------------------------------------------- */
 .contact {
-  background: var(--color-bg-alt);
+  background: var(--black);
   text-align: center;
 }
 
 .contact-content p {
   font-size: var(--text-lg);
-  color: var(--color-text-muted);
+  color: var(--black);
   margin-bottom: var(--space-lg);
 }
 
@@ -380,7 +380,7 @@ table {
 }
 
 .social-links a {
-  color: var(--color-text-muted);
+  color: var(--black);
   transition: color 0.3s;
 }
 
@@ -394,7 +394,7 @@ table {
 .footer {
   padding: var(--space-lg) 0;
   text-align: center;
-  color: var(--color-text-muted);
+  color: var(--black);
   font-size: var(--text-sm);
 }
 
@@ -410,7 +410,7 @@ table {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--color-bg-alt);
+  background: var(--black);
   border-radius: 50%;
   transition: background 0.3s, transform 0.3s;
 }

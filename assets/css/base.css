@@ -48,10 +48,10 @@ html {
  */
 body {
   font-family: var(--font-family);
-  font-size: var(--text-sm); /* Uses our fluid typography variable */
+  font-size: var(--text-); /* Uses our fluid typography variable */
   line-height: 1.6;
   color: var(--color-text);
-  background-color: var(--color-bg);
+  background-color: var(--black);
 }
 
 h1 {
