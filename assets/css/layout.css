@@ -192,6 +192,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.left-column p {
+  padding-bottom: 4rem;
+}
 /* -------------
   Skill-bars
    ------------ */
