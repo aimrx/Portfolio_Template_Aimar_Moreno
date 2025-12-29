@@ -374,3 +374,22 @@ window.cleanupScrollObservers = () => {
   staggerObserver.disconnect();
   console.log("🧹 Observers cleaned up");
 };
+
+// ==========================================================================
+// 7. NAV-BAR
+// ==========================================================================
+
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.querySelector(".nav-toggle");
+  const navLinks = document.querySelector(".nav-links");
+
+  if (!toggle || !navLinks) {
+    console.error("No se encuentra el menú");
+    return;
+  }
+
+  toggle.addEventListener("click", () => {
+    console.log("CLICK");
+    navLinks.classList.toggle("active");
+  });
+});

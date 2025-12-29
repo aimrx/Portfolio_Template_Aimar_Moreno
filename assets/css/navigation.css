@@ -1,6 +1,6 @@
 /* --------------------------------------------------------------------------
-    Navigation
-   -------------------------------------------------------------------------- */
+   Navigation
+-------------------------------------------------------------------------- */
 .nav {
   position: fixed;
   top: 0;
@@ -25,6 +25,7 @@
   color: var(--black);
 }
 
+/* Links desktop */
 .nav-links {
   display: flex;
   gap: var(--space-lg);
@@ -39,4 +40,57 @@
 .nav-links a:hover,
 .nav-links a:focus {
   color: var(--main-color);
+}
+
+/* --------------------------------------------------------------------------
+   Botón hamburguesa
+-------------------------------------------------------------------------- */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-toggle span {
+  width: 24px;
+  height: 2px;
+  background: var(--black);
+  display: block;
+}
+
+/* --------------------------------------------------------------------------
+   Responsive (pantalla vertical / móvil)
+-------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .nav-container {
+    position: relative;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0; /* 🔴 clave */
+    width: auto; /* 🔴 no ocupa toda la pantalla */
+    min-width: 180px; /* ajustable */
+    background: #f5f5f5;
+
+    text-align: right; /* 🔴 alineación del texto */
+    padding: 16px;
+  }
+
+  .nav-links.active {
+    display: block; /* 🔴 visible */
+  }
+
+  .nav-links li {
+    padding: 12px 0;
+  }
 }
