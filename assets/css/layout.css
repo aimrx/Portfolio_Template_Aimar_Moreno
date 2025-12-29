@@ -272,6 +272,10 @@ td {
   padding: 1rem;
 }
 
+table {
+  margin-left: 2rem;
+}
+
 /* Animate skill bars when revealed */
 [data-reveal-stagger].revealed .skill-fill {
   width: var(--fill);
