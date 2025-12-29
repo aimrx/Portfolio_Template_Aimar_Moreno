@@ -235,6 +235,11 @@
   transition: width 1s var(--ease-out) 0.3s;
 }
 
+/* Animate skill bars when revealed */
+[data-reveal-stagger].revealed .skill-fill {
+  width: var(--fill);
+}
+
 /* --------------------------------------------------------------------------
    8. Awards Section
    -------------------------------------------------------------------------- */
@@ -247,13 +252,6 @@
   gap: var(--space-xl);
 }
 
-@media (min-width: 768px) {
-  .awards-grid {
-    grid-template-columns: 1fr 1fr;
-    align-items: start;
-  }
-}
-
 table,
 th,
 td {
@@ -263,11 +261,6 @@ td {
 
 table {
   margin-left: 2rem;
-}
-
-/* Animate skill bars when revealed */
-[data-reveal-stagger].revealed .skill-fill {
-  width: var(--fill);
 }
 
 /* --------------------------------------------------------------------------
