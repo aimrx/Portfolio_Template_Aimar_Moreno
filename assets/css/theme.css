@@ -23,7 +23,7 @@
     1.5rem + 2.5vw,
     3rem
   ); /* 32px → 48px (section titles) */
-
+  --text-5xl: clamp(3rem, 2.25rem + 4vw, 6rem); /* 48px → 82px */
   --text-7xl: clamp(
     5rem,
     3.5rem + 6vw,

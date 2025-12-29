@@ -12,12 +12,11 @@
 
 .section-title {
   font-family: var(--font-family-titles);
-  font-size: var(--text-base); /* Uses our fluid typography variable */
+  font-size: var(--text-5xl); /* Uses our fluid typography variable */
   font-style: italic;
   font-optical-sizing: auto;
   font-weight: 600;
   margin-bottom: var(--space-lg);
-  font-size: 5.5rem;
   color: var(--main-color);
 }
 
