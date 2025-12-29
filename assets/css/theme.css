@@ -57,7 +57,7 @@
 	 */
   --color-bg: #1a1a1a; /* Near-black background */
   --color-bg-alt: #1a1a1a; /* Slightly lighter for depth/sections */
-  --color-text: #f5f5f5; /* Off-white for readability (not pure white) */
+  --color-text: #e3e3e3; /* Off-white for readability (not pure white) */
   --color-text-muted: #1a1a1a; /* Subdued text for secondary content */
   --main-color: rgb(187, 11, 11);
 
