@@ -22,7 +22,7 @@
 .nav-logo {
   font-size: var(--text-xl);
   font-weight: 500;
-  color: var(--black);
+  color: var(--main-color);
 }
 
 /* Links desktop */
@@ -33,13 +33,13 @@
 }
 
 .nav-links a {
-  color: var(--black);
+  color: rgb(187, 11, 11);
   transition: color 0.3s;
 }
 
 .nav-links a:hover,
 .nav-links a:focus {
-  color: var(--main-color);
+  color: #1a1a1a;
 }
 
 /* --------------------------------------------------------------------------

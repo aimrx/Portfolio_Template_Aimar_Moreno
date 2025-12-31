@@ -379,6 +379,7 @@ window.cleanupScrollObservers = () => {
 // 7. NAV-BAR
 // ==========================================================================
 
+// (Small screens)
 document.addEventListener("DOMContentLoaded", () => {
   const toggle = document.querySelector(".nav-toggle");
   const navLinks = document.querySelector(".nav-links");
