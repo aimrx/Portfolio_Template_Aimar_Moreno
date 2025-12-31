@@ -307,19 +307,19 @@ table {
   font-size: var(--text-sm);
 }
 
-.projects-grid {
+.works-grid {
   display: grid;
   gap: var(--space-lg);
 }
 
 @media (min-width: 640px) {
-  .projects-grid {
+  .works-grid {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (min-width: 650px) {
-  .projects-grid {
+  .works-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
