@@ -268,6 +268,45 @@ table {
 /* --------------------------------------------------------------------------
    9. Projects Section
    -------------------------------------------------------------------------- */
+
+/* Container holding the image and the text */
+.work-card {
+  position: relative;
+  text-align: center;
+  color: var(--white);
+}
+
+.work-card img {
+  border-radius: 15px;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  padding: 0 0 1rem 1rem;
+  font-size: var(--text-2xl);
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  padding: 1rem 0 0 1rem;
+  font-size: var(--text-sm);
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  padding: 1rem 1rem 0 0;
+  font-size: var(--text-sm);
+}
+
 .projects-grid {
   display: grid;
   gap: var(--space-lg);
@@ -275,71 +314,14 @@ table {
 
 @media (min-width: 640px) {
   .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 650px) {
+  .projects-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-}
-
-@media (min-width: 1024px) {
-  .projects-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-.project-card {
-  background: var(--black);
-  border-radius: 16px;
-  overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.project-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-}
-
-.project-image {
-  aspect-ratio: 4/3;
-  overflow: hidden;
-}
-
-.project-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s;
-}
-
-.project-card:hover .project-image img {
-  transform: scale(1.05);
-}
-
-.project-content {
-  padding: var(--space-md);
-}
-
-.project-content h3 {
-  font-size: var(--text-lg);
-  margin-bottom: var(--space-sm);
-}
-
-.project-content p {
-  font-size: var(--text-sm);
-  color: var(--black);
-  margin-bottom: var(--space-md);
-}
-
-.project-tags {
-  display: flex;
-  gap: var(--space-xs);
-  flex-wrap: wrap;
-}
-
-.project-tags span {
-  font-size: var(--text-xs);
-  padding: 4px 8px;
-  background: var(--black);
-  border-radius: 4px;
-  color: var(--main-color);
 }
 
 /* --------------------------------------------------------------------------
