@@ -265,7 +265,7 @@ table {
 }
 
 /* --------------------------------------------------------------------------
-   9. Projects Section
+   9. Work Section
    -------------------------------------------------------------------------- */
 
 /* Container holding the image and the text */
@@ -284,8 +284,9 @@ table {
   position: absolute;
   bottom: 8px;
   left: 16px;
-  padding: 0 0 1rem 1rem;
+  padding: var(--space-sm);
   font-size: var(--text-2xl);
+  font-weight: 500;
 }
 
 /* Top left text */
@@ -293,7 +294,7 @@ table {
   position: absolute;
   top: 8px;
   left: 16px;
-  padding: 1rem 0 0 1rem;
+  padding: var(--space-sm);
   font-size: var(--text-sm);
 }
 
@@ -302,7 +303,7 @@ table {
   position: absolute;
   top: 8px;
   right: 16px;
-  padding: 1rem 1rem 0 0;
+  padding: var(--space-sm);
   font-size: var(--text-sm);
 }
 
