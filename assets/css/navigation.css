@@ -7,7 +7,7 @@
   left: 0;
   right: 0;
   z-index: 100;
-  background: var(--color-text);
+  background: var(--white);
   padding: var(--space-md) 0;
 }
 
@@ -81,7 +81,7 @@
     right: 0;
     width: auto;
     min-width: 150px;
-    background: var(--color-text);
+    background: var(--white);
     text-align: right;
     padding: 2rem;
     padding-right: 3rem;

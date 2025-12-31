@@ -38,7 +38,7 @@
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: var(--color-text);
+  background: var(--white);
   z-index: -1;
 }
 
