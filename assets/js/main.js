@@ -394,3 +394,49 @@ document.addEventListener("DOMContentLoaded", () => {
     navLinks.classList.toggle("active");
   });
 });
+
+// ==========================================================================
+// 8. NAVBAR COLOR CHANGE (ONLY BACKGROUND)
+// ==========================================================================
+
+function initNavbarBackground() {
+  const navbar = document.querySelector(".nav");
+  const hero = document.querySelector("#hero");
+
+  if (!navbar || !hero) return;
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          navbar.classList.remove("scrolled"); // fondo blanco
+        } else {
+          navbar.classList.add("scrolled"); // fondo negro
+        }
+      });
+    },
+    {
+      root: null,
+      threshold: 0,
+      rootMargin: "0px 0px -100px 0px", // cambia cuando el hero casi desaparece
+    }
+  );
+
+  observer.observe(hero);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Nueva función
+  initNavbarBackground();
+
+  // Menú hamburguesa
+  const toggle = document.querySelector(".nav-toggle");
+  const navLinks = document.querySelector(".nav-links");
+  if (toggle && navLinks) {
+    toggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  }
+
+  console.log("🚀 Grade 1 Demo: Vanilla scroll animations initialized");
+});

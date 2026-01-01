@@ -9,6 +9,12 @@
   z-index: 100;
   background: var(--white);
   padding: var(--space-md) 0;
+  transition: background 0.3s ease;
+}
+
+/* Navbar cuando ha salido de la hero */
+.nav.scrolled {
+  background: var(--black);
 }
 
 .nav-container {
@@ -87,18 +93,15 @@
     padding-right: 3rem;
   }
 
+  .nav.scrolled .nav-links {
+    background: var(--black);
+  }
+
   .nav-links.active {
     display: block;
   }
 
   .nav-links li {
     padding: 12px 0;
-  }
-}
-
-@media (max-width: 770px) {
-  .nav-links {
-    padding-right: 1rem;
-    padding-top: 0.5rem;
   }
 }
