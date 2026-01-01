@@ -1,12 +1,7 @@
 I have used QWEN3-Max in order to make the nav-bar to change color wwhile scrolling to the about-section.
 
-## <!---------------------------------------------------------------
+<!--------------------------------------------------------------- MY PROMT ------------------------------------------------------------------->
 
-    MY PROMT
-
----
-
----------------------------------------------------------------->
 Volvemos a empezar desde 0. Quiero que la nav-bar cambie de color tras pasar la hero-section. Pero no quiero que las letras cambien de color, permanecerán en el color rojo. Te paso todo el código necesario.
 
 HTML
@@ -1424,13 +1419,7 @@ navLinks.classList.toggle("active");
 });
 });
 
-## <!---------------------------------------------------------------
-
-    QWEN RESPONSE
-
----
-
----------------------------------------------------------------->
+## <!---------------------------------------------------------------QWEN RESPONSE------------------------------------------------------------------->
 
                         <!DOCTYPE html>
                         <html lang="en">

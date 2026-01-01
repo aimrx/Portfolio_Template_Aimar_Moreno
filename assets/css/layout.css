@@ -6,10 +6,6 @@
   margin-inline: auto;
 }
 
-.section {
-  padding: var(--space-2xl) 0;
-}
-
 .section-title {
   font-family: var(--font-family-titles);
   font-size: var(--text-5xl); /* Uses our fluid typography variable */
