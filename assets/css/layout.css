@@ -330,7 +330,7 @@ table {
 
 .contact-content p {
   font-size: var(--text-lg);
-  color: var(--black);
+  color: var(--white);
   margin-bottom: var(--space-lg);
 }
 
@@ -342,7 +342,7 @@ table {
 }
 
 .social-links a {
-  color: var(--black);
+  color: var(--white);
   transition: color 0.3s;
 }
 
@@ -350,13 +350,54 @@ table {
   color: var(--main-color);
 }
 
+.contact input {
+  width: 100%;
+  height: var(--space-lg);
+  border-color: rgb(from var(--white) r g b / 5%);
+  background-color: rgb(from var(--white) r g b / 10%);
+  color: var(--main-color);
+  padding-left: var(--space-sm);
+}
+
+.contact label {
+  display: flex;
+  justify-content: left;
+  padding-top: var(--space-lg);
+  padding-bottom: var(--space-sm);
+}
+
+.contact-grid {
+  display: grid;
+  gap: var(--space-lg);
+}
+
+@media (min-width: 640px) {
+  .contact-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 650px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+input#message {
+  height: var(--space-2xl);
+}
+
+.submit-button {
+  padding-top: var(--space-lg);
+  width: 30%;
+}
 /* --------------------------------------------------------------------------
    11. Footer
    -------------------------------------------------------------------------- */
 .footer {
   padding: var(--space-lg) 0;
   text-align: center;
-  color: var(--black);
+  color: var(--white);
   font-size: var(--text-sm);
 }
 
