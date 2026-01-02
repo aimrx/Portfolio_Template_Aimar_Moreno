@@ -143,20 +143,27 @@
 /* --------------------------------------------------------------------------
    6. Button
    -------------------------------------------------------------------------- */
-.btn {
-  display: inline-block;
-  padding: var(--space-sm) var(--space-lg);
-  background: var(--main-color);
-  color: white;
-  font-weight: 600;
-  border-radius: 8px;
-  transition: background 0.3s, transform 0.3s;
+
+.animated-button {
+  display: flex;
+  justify-content: left;
+  padding: var(--space-sm) var(--space-xl);
+  background-color: rgb(from var(--white) r g b / 10%);
+  color: var(--white);
+  border: none;
+  border-radius: 15px;
+  font-size: var(--text-sm);
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.btn:hover,
-.btn:focus {
-  background: var(--main-color);
-  transform: translateY(-2px);
+.animated-button:hover {
+  background-color: var(--main-color);
+  transform: scale(1.1);
+}
+
+.submit-button {
+  padding-top: var(--space-md);
 }
 /* --------------------------------------------------------------------------
    7. About Section
@@ -388,10 +395,6 @@ input#message {
   height: var(--space-2xl);
 }
 
-.submit-button {
-  padding-top: var(--space-lg);
-  width: 30%;
-}
 /* --------------------------------------------------------------------------
    11. Footer
    -------------------------------------------------------------------------- */
