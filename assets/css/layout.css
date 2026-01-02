@@ -357,6 +357,7 @@ table {
   background-color: rgb(from var(--white) r g b / 10%);
   color: var(--main-color);
   padding-left: var(--space-sm);
+  border-radius: 10px;
 }
 
 .contact label {
