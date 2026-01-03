@@ -18,7 +18,7 @@
 }
 
 /* --------------------------------------------------------------------------
-   5. Hero Section
+   4. Hero Section
    -------------------------------------------------------------------------- */
 .hero {
   position: relative;
@@ -141,32 +141,7 @@
 }
 
 /* --------------------------------------------------------------------------
-   6. Button
-   -------------------------------------------------------------------------- */
-
-.animated-button {
-  display: flex;
-  justify-content: left;
-  padding: var(--space-sm) var(--space-xl);
-  background-color: rgb(from var(--white) r g b / 10%);
-  color: var(--white);
-  border: none;
-  border-radius: 15px;
-  font-size: var(--text-sm);
-  cursor: pointer;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.animated-button:hover {
-  background-color: var(--main-color);
-  transform: scale(1.1);
-}
-
-.submit-button {
-  padding-top: var(--space-md);
-}
-/* --------------------------------------------------------------------------
-   7. About Section
+   5. About Section
    -------------------------------------------------------------------------- */
 .about-img-container {
   width: 100%;
@@ -245,7 +220,7 @@
 }
 
 /* --------------------------------------------------------------------------
-   8. Awards Section
+   6. Awards Section
    -------------------------------------------------------------------------- */
 .awards {
   background: var(--black);
@@ -268,7 +243,7 @@ table {
 }
 
 /* --------------------------------------------------------------------------
-   9. Work Section
+   7. Work Section
    -------------------------------------------------------------------------- */
 
 /* Container holding the image and the text */
@@ -327,8 +302,34 @@ table {
   }
 }
 
+/* -------------
+  Button
+   ------------ */
+
+.animated-button {
+  display: flex;
+  justify-content: left;
+  padding: var(--space-sm) var(--space-xl);
+  background-color: rgb(from var(--white) r g b / 10%);
+  color: var(--white);
+  border: none;
+  border-radius: 15px;
+  font-size: var(--text-sm);
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.animated-button:hover {
+  background-color: var(--main-color);
+  transform: scale(1.1);
+}
+
+.submit-button {
+  padding-top: var(--space-md);
+}
+
 /* --------------------------------------------------------------------------
-   10. Contact Section
+   8. Contact Section
    -------------------------------------------------------------------------- */
 .contact {
   background: var(--black);
@@ -396,7 +397,7 @@ input#message {
 }
 
 /* --------------------------------------------------------------------------
-   11. Footer
+   9. Footer
    -------------------------------------------------------------------------- */
 .footer {
   padding: var(--space-lg) 0;
@@ -428,7 +429,7 @@ input#message {
 }
 
 /* --------------------------------------------------------------------------
-   12. SCROLL REVEAL ANIMATIONS (IntersectionObserver-driven)
+   10. SCROLL REVEAL ANIMATIONS (IntersectionObserver-driven)
 
    🎓 THE CSS + JAVASCRIPT PARTNERSHIP:
    The JavaScript IntersectionObserver (in main.js) adds classes when elements
@@ -543,7 +544,7 @@ input#message {
 }
 
 /* --------------------------------------------------------------------------
-   13. ACCESSIBILITY: REDUCED MOTION
+   11. ACCESSIBILITY: REDUCED MOTION
 
    🎓 WHY THIS MATTERS:
    Some users experience motion sickness, vestibular disorders, or seizures
@@ -609,7 +610,7 @@ input#message {
 }
 
 /* --------------------------------------------------------------------------
-   14. Mobile Adjustments
+   11. Mobile Adjustments
    -------------------------------------------------------------------------- */
 @media (max-width: 640px) {
   .nav-links {
