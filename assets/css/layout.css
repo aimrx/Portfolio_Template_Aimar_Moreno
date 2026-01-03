@@ -333,6 +333,7 @@ table {
    -------------------------------------------------------------------------- */
 .contact {
   background: var(--black);
+  padding-bottom: var(--space-2xl);
 }
 
 .contact input {
@@ -377,10 +378,14 @@ input#message {
    9. Footer
    -------------------------------------------------------------------------- */
 .footer {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
   padding: var(--space-lg) 0;
-  text-align: center;
-  color: var(--white);
+  color: var(--black);
   font-size: var(--text-sm);
+  background: var(--white);
+  height: 100vh;
 }
 
 .footer .container {
@@ -398,6 +403,7 @@ input#message {
   background: var(--black);
   border-radius: 50%;
   transition: background 0.3s, transform 0.3s;
+  color: var(--white);
 }
 
 .back-to-top:hover {
