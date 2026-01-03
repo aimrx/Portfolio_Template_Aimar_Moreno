@@ -64,7 +64,7 @@
 .nav-toggle span {
   width: 24px;
   height: 2px;
-  background: var(--black);
+  background: var(--main-color);
   display: block;
 }
 
