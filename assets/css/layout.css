@@ -388,10 +388,10 @@ input#message {
   height: 100vh;
 }
 
-.footer .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.footer-title {
+  color: var(--main-color);
+  font-size: var(--text-7xl);
+  letter-spacing: -0.02em;
 }
 
 .back-to-top {
