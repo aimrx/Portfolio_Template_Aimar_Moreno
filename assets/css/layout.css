@@ -378,14 +378,19 @@ input#message {
    9. Footer
    -------------------------------------------------------------------------- */
 .footer {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
   padding: var(--space-lg) 0;
   color: var(--black);
   font-size: var(--text-sm);
   background: var(--white);
   height: 100vh;
+}
+
+.footer-info {
+  padding-top: var(--space-2xl);
+}
+
+.footer-grid {
+  display: grid;
 }
 
 .footer-title {
@@ -406,9 +411,37 @@ input#message {
   color: var(--white);
 }
 
+.btt-button {
+  display: flex;
+  justify-content: right;
+}
+
 .back-to-top:hover {
   background: var(--main-color);
   transform: translateY(-3px);
+}
+
+.footer-links a {
+  text-decoration: none; /* Remove the default underline */
+  transition: color 0.3s ease;
+}
+
+/* Styles applied when the user hovers over the link */
+.footer-links a:hover {
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  .footer-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 650px) {
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* --------------------------------------------------------------------------
