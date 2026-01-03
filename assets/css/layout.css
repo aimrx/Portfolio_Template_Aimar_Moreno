@@ -382,7 +382,6 @@ input#message {
   color: var(--black);
   font-size: var(--text-sm);
   background: var(--white);
-  height: 100vh;
 }
 
 .footer-info {
@@ -432,15 +431,13 @@ input#message {
   cursor: pointer;
 }
 
-@media (min-width: 640px) {
-  .footer-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
+.footer-grid {
+  grid-template-columns: repeat(2, 1fr);
 }
 
-@media (min-width: 650px) {
-  .footer-grid {
-    grid-template-columns: repeat(2, 1fr);
+@media (min-width: 510px) {
+  .footer-title {
+    padding-top: 18rem;
   }
 }
 
