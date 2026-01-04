@@ -1,10 +1,15 @@
 .error-info {
   text-align: center;
-  padding-top: var(--space-xl);
+  padding-top: var(--space-lg);
 }
 
 .error-info p {
   padding-top: var(--space-sm);
+}
+
+.error-info h2 {
+  font-weight: 600;
+  font-size: var(--text-lg);
 }
 
 .error-title h1 {
@@ -33,5 +38,5 @@
 
 .go-back-buttom {
   text-align: center;
-  padding-top: var(--space-xl);
+  padding-top: var(--space-lg);
 }
