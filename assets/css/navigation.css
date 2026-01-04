@@ -26,9 +26,8 @@
 }
 
 .nav-logo {
-  font-size: var(--text-xl);
-  font-weight: 500;
   color: var(--main-color);
+  max-width: 2.5%;
 }
 
 /* Links desktop */
