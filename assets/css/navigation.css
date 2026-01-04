@@ -70,7 +70,7 @@
 }
 
 /* --------------------------------------------------------------------------
-   Responsive (pantalla vertical / móvil)
+   Responsive ( vertical screens & movil)
 -------------------------------------------------------------------------- */
 @media (max-width: 768px) {
   .nav-container {
@@ -90,8 +90,7 @@
     min-width: 150px;
     background: var(--white);
     text-align: right;
-    padding: 2rem;
-    padding-right: 3rem;
+    padding: 1rem;
   }
 
   .nav.scrolled .nav-links {
