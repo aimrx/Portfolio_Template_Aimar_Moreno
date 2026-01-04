@@ -1,4 +1,37 @@
-.info {
+.error-info {
   text-align: center;
-  padding-top: var(--space-2xl);
+  padding-top: var(--space-xl);
+}
+
+.error-info p {
+  padding-top: var(--space-sm);
+}
+
+.error-title h1 {
+  color: var(--main-color);
+  font-size: var(--text-7xl);
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-top: var(--space-xl);
+}
+
+#backButton {
+  background-color: var(--main-color);
+  color: var(--white);
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Add padding */
+  font-size: var(--text-lg);
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border-radius: 5px; /* Add rounded corners */
+  text-decoration: none; /* Remove underline if using <a> tag */
+  display: inline-block; /* Allows padding and margins to work correctly */
+}
+
+#backButton:hover {
+  background-color: var(--second-color);
+}
+
+.go-back-buttom {
+  text-align: center;
+  padding-top: var(--space-xl);
 }
