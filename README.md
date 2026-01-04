@@ -1,36 +1,25 @@
 # Portfolio_Template_Aimar_Moreno
 
-Portfolio template for designers
+<!--Live deployment link-->
 
 You can find the project deployed here
 [https://aimrx.github.io/Portfolio_Template_Aimar_Moreno/]
 
-by @aimrx
+<!--Project description and purpose-->
 
-<!--
-README.md with:
+Portfolio template for designers.
+This website aims to be a portfolio template for all of those who need one and find my template atractive.
 
-Live deployment link at the very top
-Project description and purpose
-Tech stack used
-Setup instructions for local development
-Customization guide
-Screenshots or demo GIF
-Credits and acknowledgments
+<!--Tech stack used-->
 
+Front-end --> HTML, CSS and JavaScript
 
+<!--Setup instructions for local development-->
 
-AI Agent Usage Policy: If you use AI assistants, include a clear section in your README describing when and how the AI was used. Critical: Every AI interaction must follow a two-phase workflow:
+<!--Customization guide-->
 
-Phase 1: Planning — Request a development plan from the AI
-Phase 2: Implementation — Only after documenting the plan, proceed with code
+<!--Screenshots or demo GIF-->
 
-docs/plan1.md — First feature/task (e.g., “Responsive Navigation Component”)
-docs/plan2.md — Second feature/task (e.g., “GSAP Scroll Animations”)
-docs/plan3.md — Third feature/task (e.g., “Contact Form Integration”)
-Each plan file should contain:
-Your prompt/question to the AI
-The AI’s complete plan response
-Brief notes on what was implemented from the plan
+<!--Credits and acknowledgments-->
 
--->
+Done by @aimrx
