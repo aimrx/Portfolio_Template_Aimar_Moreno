@@ -59,10 +59,6 @@ Creating a portfolio template is a way for me to express my creativity. Otherwis
 2.
 3.
 
-### Content Sources
-
-<!-- Where will your content come from? -->
-
 ### Multilingual Considerations
 
 - Primary language: english
@@ -75,7 +71,7 @@ Creating a portfolio template is a way for me to express my creativity. Otherwis
 
 ### Visual Style
 
-<!-- Describe your aesthetic approach -->
+I have used the combination of serif and sans serif typography in order to create contrast between titles and texts. At the same time, black and white colors make my webpage look really simple. However, the color red makes the webpage more identificable and unique, besides the other two usual colors. Moreover, the photography style also characterizes this portfolio template, as it's using a color filter and lot on noise.
 
 ### Color Palette
 
