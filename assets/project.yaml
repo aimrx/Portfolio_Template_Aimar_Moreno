@@ -4,47 +4,41 @@
 # Basic information
 handle: aimrx
 name: Aimar Moreno Sereno
-email: your-email@udit.es
+email: aimar.moreno@alumnos.udit.es
 
 # URLs (will be auto-generated if you follow naming conventions)
-github_url: https://github.com/your-username
-project_url: https://your-username.github.io/your-project-repo
-repository_url: https://github.com/your-username/your-project-repo
+github_url: https://github.com/aimrx
+project_url: https://aimrx.github.io/Portfolio_Template_Aimar_Moreno/
+repository_url: https://github.com/aimrx/Portfolio_Template_Aimar_Moreno.git
 
 # Project details
 title:
-  es: Título de tu Proyecto en Español
-  en: Your Project Title in English
+  es: Plantilla_Portfolio_Aimar_Moreno
+  en: Portfolio_Template_Aimar_Moreno
 
 abstract:
   es: |
-    Una descripción concisa de tu proyecto web en español. 
-    Explica qué construyes, para quién y por qué es importante.
+    Este proyecto consiste en la creación de una plantilla de proyecto, teniendo en cuenta las necesidades de los diseñadores. 
+    Ha sido realizado principalmente para diseñadores, de todas maneras, no exclusivamente para ellos, sino que para todos aquellos creativos que quieran utilizarlo.
   en: |
-    A concise description of your web project in English.
-    Explain what you're building, for whom, and why it matters.
+    This project aims to build a web portfolio template, based on designers' needs. 
+    It was made mainly for designers. However, not exclusively just for them, all creatives can make use of it.
 
 # Technical tags (choose relevant ones)
 tags:
   - html5
   - css3
+  - javascript
   - responsive-design
   - accessibility
-  # Add more as relevant: javascript, sass, performance, etc.
 
 # Learning objectives you're focusing on
 learning_focus:
   - semantic-html
   - mobile-first-design
   - web-accessibility
-  # Add more as you progress
-
-# Week tracking (update as you go)
-milestones:
-  week_1_setup: false
-  week_2_brief: false
-  week_4_metadata: false
-  week_5_showcase: false
+  - responsiveness
+  - small animations
 
 # Optional: link to your project brief
 brief_url: project-brief.md
