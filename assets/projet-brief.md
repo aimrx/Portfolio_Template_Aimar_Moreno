@@ -11,15 +11,15 @@
 
 ### What are you building?
 
-<!-- Describe your project in 2-3 sentences -->
+This project aims to build a web portfolio template, based on designers' needs.
 
 ### Who is it for?
 
-<!-- Define your target audience -->
+It was made mainly for designers. However, not exclusively just for them, all creatives can make use of it.
 
 ### Why does it matter?
 
-<!-- Explain the purpose and value of your project -->
+Creating a portfolio template is a way for me to express my creativity. Otherwise, it's a method for users who doesn't know how to build a website from the beginning, to create their own web portfolio based on this one.
 
 ---
 
@@ -35,6 +35,55 @@
 ### Accessibility Goals
 
 - [ ] Semantic HTML structure
+      portfolio_template_aimar_moreno/
+      ├── README.md
+      ├── LICENSE
+      ├── index.html
+      ├── error-404.html
+      ├── .gitignore
+      ├── docs/
+      │ └── plan-1.md
+      ├── assets/
+      │ ├── css/
+      │ │ ├── base.css
+      │ │ ├── error-404.css
+      │ │ ├── fotns.css
+      │ │ ├── index.css
+      │ │ ├── layout.css
+      │ │ ├── navigation.css
+      │ │ ├── reset.css
+      │ │ └── theme.css
+      │ ├── images/
+      │ │ ├── favicon/
+      │ │ │ ├── android-chrome-192x192.png
+      │ │ │ ├── android-chrome-512x512.png
+      │ │ │ ├── apple-touch-icon.png
+      │ │ │ ├── favicon-16x16.png
+      │ │ │ ├── favicon-32x32.png
+      │ │ │ ├── favicon.ico
+      │ │ │ └── site.webmanifest
+      │ │ ├── about-img.png
+      │ │ ├── illustrator.png
+      │ │ ├── Indesign.png
+      │ │ ├── Lightroom.png
+      │ │ ├── logo.png
+      │ │ ├── MOCK-UP 1.png
+      │ │ ├── mock-up-2.png
+      │ │ ├── mock-up-3.png
+      │ │ ├── mock-up-4.png
+      │ │ ├── Photoshop.png
+      │ │ ├── Premiere.png
+      │ │ └── Procreate.png
+      │ ├── js/
+      │ │ └── main.js
+      │ ├── project-inspiration/
+      │ │ ├── project-inspiration.md
+      │ │ ├── reference-img-1.png
+      │ │ └── reference-img-2.png
+      │ ├── project.yaml
+      │ └── project-brief.md
+      └──
+
 - [ ] Proper heading hierarchy
 - [ ] Alt text for images
 - [ ] Keyboard navigation support
@@ -65,7 +114,7 @@
 
 ### Multilingual Considerations
 
-- Primary language:
+- Primary language: english
 - Secondary language (optional):
 - Translation strategy:
 
@@ -79,15 +128,20 @@
 
 ### Color Palette
 
-<!-- List your main colors -->
+--white: #f6eed4;
+--black: #1a1a1a;
+--main-color: rgb(187, 11, 11);
 
 ### Typography
 
-<!-- What fonts/typeface approach will you use? -->
+--font-family: "Montserrat", sans-serif;
+--font-family-titles: "Cormorant", serif;
 
 ### Inspiration/References
 
-<!-- List 2-3 websites or designs that inspire your approach -->
+- https://www.art-yakushev.com/
+- https://brunsohn-clean.vercel.app/
+- https://studiolumio.com/works/props
 
 ---
 
@@ -114,9 +168,15 @@
 
 ### What excites you most about this project?
 
+What excites me the most is the idea of having bee able to create my own web portfolio template and that I will be able to improve over the time.
+
 ### What challenges do you anticipate?
 
+The main idea of doing a website feels already challenge for me. However I already knew the animations and use of javascript was going to be challenging and more complicated than the html and css.
+
 ### How does this project connect to your learning goals?
+
+My learning goals are everything that envolves web design. The development of a web portfolio template combines the web methodology, with my own design aesthetics.
 
 ---
 
