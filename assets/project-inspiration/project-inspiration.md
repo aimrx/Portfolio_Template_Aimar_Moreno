@@ -2,15 +2,14 @@
 
 ## Trends
 
-- [Trend 1]
-- [Trend 2]
-- [Trend 3]
+- Minimalism
+- Scrollytelling
 
 ## Visual References
 
-- [Link or moodboard image 1]
-- [Link or moodboard image 2]
-- [Link or moodboard image 3]
+- https://www.art-yakushev.com/
+- reference-img-1.png
+- reference-img-2.png
 
 ## Theme Draft
 
