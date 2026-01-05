@@ -381,7 +381,6 @@ input#message {
    9. Footer
    -------------------------------------------------------------------------- */
 .footer {
-  padding: var(--space-lg) 0;
   color: var(--black);
   font-size: var(--text-sm);
   background: var(--white);
@@ -440,7 +439,7 @@ input#message {
 
 @media (min-width: 510px) {
   .footer-title {
-    padding-top: 18rem;
+    padding-top: 2rem;
   }
 }
 
