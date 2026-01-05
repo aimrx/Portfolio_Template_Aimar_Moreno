@@ -65,12 +65,6 @@ Front-end --> HTML, CSS and JavaScript
       │ └── project-brief.md
       └──
 
-## Setup instructions for local development
-
-## Customization guide
-
-## Screenshots or demo GIF
-
 ## Credits and acknowledgments
 
 Done by @aimrx
