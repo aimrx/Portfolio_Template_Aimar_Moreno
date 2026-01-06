@@ -13,4 +13,4 @@
 
 ## Theme Draft
 
-[Your project’s core concept—what it’s about]
+Web portfolio template for designers
